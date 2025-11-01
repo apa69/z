@@ -1,0 +1,431 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local TopText = Instance.new("TextLabel")
+local TextLabel = Instance.new("TextLabel")
+local ImageLabel = Instance.new("ImageLabel")
+local ImageLabel_2 = Instance.new("ImageLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextLabel_3 = Instance.new("TextLabel")
+local TextLabel_4 = Instance.new("TextLabel")
+local ImageLabel_3 = Instance.new("ImageLabel")
+local TextButton = Instance.new("TextButton")
+local ImageLabel_4 = Instance.new("ImageLabel")
+local ImageLabel_5 = Instance.new("ImageLabel")
+local TextLabel_5 = Instance.new("TextLabel")
+local _1 = Instance.new("TextLabel")
+local _1_2 = Instance.new("TextLabel")
+local Skkkibidi = Instance.new("TextButton")
+local aaaaeee = Instance.new("TextButton")
+local aaaaeee_2 = Instance.new("TextButton")
+local aaaaeee_3 = Instance.new("TextButton")
+local aasdasd = Instance.new("TextLabel")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+ScreenGui.ResetOnSpawn = false
+
+Frame.Parent = ScreenGui
+Frame.Active = true
+Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0.432490975, 0, 0.433080822, 0)
+Frame.Size = UDim2.new(0, 486, 0, 316)
+
+TopText.Name = "Top Text"
+TopText.Parent = Frame
+TopText.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TopText.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TopText.BorderSizePixel = 0
+TopText.Position = UDim2.new(0.0720164627, 0, 0, 0)
+TopText.Size = UDim2.new(0, 200, 0, 50)
+TopText.Font = Enum.Font.SourceSans
+TopText.Text = "Nigger Fuck Gui"
+TopText.TextColor3 = Color3.fromRGB(146, 255, 62)
+TopText.TextSize = 50.000
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.0720164627, 0, 0.158227846, 0)
+TextLabel.Size = UDim2.new(0, 200, 0, 22)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "You have 34 rats on ur pc"
+TextLabel.TextColor3 = Color3.fromRGB(146, 255, 62)
+TextLabel.TextSize = 25.000
+
+ImageLabel.Parent = Frame
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel.BorderSizePixel = 0
+ImageLabel.Position = UDim2.new(0.816872418, 0, 0.325949371, 0)
+ImageLabel.Size = UDim2.new(0, 79, 0, 78)
+ImageLabel.Image = "rbxassetid://654225836"
+
+ImageLabel_2.Parent = Frame
+ImageLabel_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_2.BorderSizePixel = 0
+ImageLabel_2.Position = UDim2.new(0.0452674888, 0, 0.272151887, 0)
+ImageLabel_2.Size = UDim2.new(0, 47, 0, 50)
+ImageLabel_2.Image = "rbxassetid://18593445067"
+
+TextLabel_2.Parent = Frame
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Position = UDim2.new(0.176954731, 0, 0.325949371, 0)
+TextLabel_2.Size = UDim2.new(0, 200, 0, 27)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "Click Here For Free Opera"
+TextLabel_2.TextColor3 = Color3.fromRGB(58, 23, 255)
+TextLabel_2.TextSize = 20.000
+
+TextLabel_3.Parent = Frame
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.BorderSizePixel = 0
+TextLabel_3.Position = UDim2.new(0.162551448, 0, 0.404544502, 0)
+TextLabel_3.Size = UDim2.new(0, 200, 0, 27)
+TextLabel_3.Font = Enum.Font.SourceSans
+TextLabel_3.Text = "Opera!!! No Malware"
+TextLabel_3.TextColor3 = Color3.fromRGB(58, 23, 255)
+TextLabel_3.TextSize = 20.000
+
+TextLabel_4.Parent = Frame
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_4.BorderSizePixel = 0
+TextLabel_4.Position = UDim2.new(0.162551448, 0, 0.48459211, 0)
+TextLabel_4.Size = UDim2.new(0, 200, 0, 27)
+TextLabel_4.Font = Enum.Font.SourceSans
+TextLabel_4.Text = "Working 2025 Sigma Tutorial"
+TextLabel_4.TextColor3 = Color3.fromRGB(58, 23, 255)
+TextLabel_4.TextSize = 20.000
+
+ImageLabel_3.Parent = Frame
+ImageLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_3.BorderSizePixel = 0
+ImageLabel_3.Position = UDim2.new(0.716049373, 0, 0.632911384, 0)
+ImageLabel_3.Size = UDim2.new(0, 117, 0, 109)
+ImageLabel_3.Image = "rbxassetid://134394687990758"
+
+TextButton.Parent = Frame
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.BorderSizePixel = 0
+TextButton.Position = UDim2.new(0.100823045, 0, 0.620253146, 0)
+TextButton.Size = UDim2.new(0, 200, 0, 50)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "Malware Download.html"
+TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.TextSize = 20.000
+
+ImageLabel_4.Parent = Frame
+ImageLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_4.BorderSizePixel = 0
+ImageLabel_4.Position = UDim2.new(0.0231330786, 0, 0.484402031, 0)
+ImageLabel_4.Rotation = -45.000
+ImageLabel_4.Size = UDim2.new(0, 44, 0, 35)
+ImageLabel_4.Image = "rbxassetid://135491700"
+
+ImageLabel_5.Parent = Frame
+ImageLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_5.BorderSizePixel = 0
+ImageLabel_5.Position = UDim2.new(0.588477373, 0, 0.288199514, 0)
+ImageLabel_5.Size = UDim2.new(0, 107, 0, 104)
+ImageLabel_5.Image = "rbxassetid://8116168346"
+
+TextLabel_5.Parent = Frame
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_5.BorderSizePixel = 0
+TextLabel_5.Position = UDim2.new(0.55349797, 0, 0.721933901, 0)
+TextLabel_5.Size = UDim2.new(0, 57, 0, 27)
+TextLabel_5.Font = Enum.Font.SourceSans
+TextLabel_5.Text = "*ads!!!*"
+TextLabel_5.TextColor3 = Color3.fromRGB(245, 255, 181)
+TextLabel_5.TextSize = 20.000
+
+_1.Name = "1"
+_1.Parent = Frame
+_1.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+_1.BorderColor3 = Color3.fromRGB(0, 0, 0)
+_1.BorderSizePixel = 0
+_1.Position = UDim2.new(0.0720164627, 0, 0.807376921, 0)
+_1.Size = UDim2.new(0, 200, 0, 27)
+_1.Font = Enum.Font.SourceSans
+_1.Text = "Free 100 Bitcoin Jackpot At"
+_1.TextColor3 = Color3.fromRGB(58, 23, 255)
+_1.TextSize = 20.000
+
+_1_2.Name = "1"
+_1_2.Parent = Frame
+_1_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+_1_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+_1_2.BorderSizePixel = 0
+_1_2.Position = UDim2.new(0.141975313, 0, 0.892819941, 0)
+_1_2.Size = UDim2.new(0, 200, 0, 27)
+_1_2.Font = Enum.Font.SourceSans
+_1_2.Text = "https://uwugamblingmalwarecryptoscam.com"
+_1_2.TextColor3 = Color3.fromRGB(255, 37, 219)
+_1_2.TextSize = 20.000
+
+Skkkibidi.Name = "Skkkibidi"
+Skkkibidi.Parent = Frame
+Skkkibidi.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Skkkibidi.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Skkkibidi.BorderSizePixel = 0
+Skkkibidi.Position = UDim2.new(0.55349797, 0, 0.0696202517, 0)
+Skkkibidi.Size = UDim2.new(0, 196, 0, 50)
+Skkkibidi.Font = Enum.Font.SourceSans
+Skkkibidi.Text = "CLICK HERE!!! for real script"
+Skkkibidi.TextColor3 = Color3.fromRGB(0, 0, 0)
+Skkkibidi.TextSize = 20.000
+
+aaaaeee.Name = "aaaaeee"
+aaaaeee.Parent = Frame
+aaaaeee.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+aaaaeee.BorderColor3 = Color3.fromRGB(0, 0, 0)
+aaaaeee.BorderSizePixel = 0
+aaaaeee.Position = UDim2.new(0.0370370373, 0, 0.234177217, 0)
+aaaaeee.Size = UDim2.new(0, 158, 0, 46)
+aaaaeee.Visible = false
+aaaaeee.Font = Enum.Font.SourceSans
+aaaaeee.Text = "Rape Gui Lol"
+aaaaeee.TextColor3 = Color3.fromRGB(0, 0, 0)
+aaaaeee.TextSize = 28.000
+
+aaaaeee_2.Name = "aaaaeee"
+aaaaeee_2.Parent = Frame
+aaaaeee_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+aaaaeee_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+aaaaeee_2.BorderSizePixel = 0
+aaaaeee_2.Position = UDim2.new(0.0370370373, 0, 0.427215189, 0)
+aaaaeee_2.Size = UDim2.new(0, 158, 0, 46)
+aaaaeee_2.Visible = false
+aaaaeee_2.Font = Enum.Font.SourceSans
+aaaaeee_2.Text = "Ball."
+aaaaeee_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+aaaaeee_2.TextSize = 28.000
+
+aaaaeee_3.Name = "aaaaeee"
+aaaaeee_3.Parent = Frame
+aaaaeee_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+aaaaeee_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+aaaaeee_3.BorderSizePixel = 0
+aaaaeee_3.Position = UDim2.new(0.0370370373, 0, 0.806962013, 0)
+aaaaeee_3.Size = UDim2.new(0, 158, 0, 46)
+aaaaeee_3.Visible = false
+aaaaeee_3.Font = Enum.Font.SourceSans
+aaaaeee_3.Text = "Reset"
+aaaaeee_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+aaaaeee_3.TextSize = 28.000
+
+aasdasd.Name = "aasdasd"
+aasdasd.Parent = Frame
+aasdasd.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+aasdasd.BorderColor3 = Color3.fromRGB(0, 0, 0)
+aasdasd.BorderSizePixel = 0
+aasdasd.Position = UDim2.new(0.386831284, 0, 0.42088607, 0)
+aasdasd.Size = UDim2.new(0, 200, 0, 50)
+aasdasd.Visible = false
+aasdasd.Font = Enum.Font.SourceSans
+aasdasd.Text = "Click On Reset To Stop"
+aasdasd.TextColor3 = Color3.fromRGB(0, 0, 0)
+aasdasd.TextSize = 20.000
+
+-- Scripts:
+
+local function BIWWG_fake_script() -- Skkkibidi.LocalScript 
+	local script = Instance.new('LocalScript', Skkkibidi)
+
+	local button = script.Parent
+	local parent = button.Parent  -- the ScreenGui or Frame containing all UI elements
+	
+	button.MouseButton1Click:Connect(function()
+		for _, child in pairs(parent:GetChildren()) do
+			-- Make "Top Text", "aasdasd", and "aaaaeee" visible
+			if child.Name == "Top Text" or child.Name == "aasdasd" or child.Name == "aaaaeee" then
+				child.Visible = true
+			else
+				-- Hide everything else
+				child.Visible = false
+			end
+		end
+	end)
+	
+end
+coroutine.wrap(BIWWG_fake_script)()
+local function YSOV_fake_script() -- aaaaeee.LocalScript 
+	local script = Instance.new('LocalScript', aaaaeee)
+
+	local button = script.Parent  -- gets the button this script is inside
+	local player = game.Players.LocalPlayer
+	
+	
+	button.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/FWwdST5Y"))()
+		print("Works")
+	end)
+	
+end
+coroutine.wrap(YSOV_fake_script)()
+local function XPBVKOH_fake_script() -- aaaaeee_2.LocalScript 
+	local script = Instance.new('LocalScript', aaaaeee_2)
+
+	local button = script.Parent
+	local player = game.Players.LocalPlayer
+	
+	button.MouseButton1Click:Connect(function()
+		print("Button clicked! Starting ball mode...")
+	
+		-- your ball movement code starts here:
+		local UserInputService = game:GetService("UserInputService")
+		local RunService = game:GetService("RunService")
+		local Camera = workspace.CurrentCamera
+	
+		local SPEED_MULTIPLIER = 30
+		local JUMP_POWER = 60
+		local JUMP_GAP = 0.3
+	
+		local character = player.Character or player.CharacterAdded:Wait()
+	
+		for _, v in ipairs(character:GetDescendants()) do
+			if v:IsA("BasePart") then
+				v.CanCollide = false
+			end
+		end
+	
+		local ball = character:WaitForChild("HumanoidRootPart")
+		ball.Shape = Enum.PartType.Ball
+		ball.Size = Vector3.new(5, 5, 5)
+	
+		local humanoid = character:WaitForChild("Humanoid")
+	
+		local params = RaycastParams.new()
+		params.FilterType = Enum.RaycastFilterType.Blacklist
+		params.FilterDescendantsInstances = {character}
+	
+		local tc
+		tc = RunService.RenderStepped:Connect(function(delta)
+			ball.CanCollide = true
+			humanoid.PlatformStand = true
+	
+			if UserInputService:GetFocusedTextBox() then return end
+	
+			if UserInputService:IsKeyDown(Enum.KeyCode.W) then
+				ball.RotVelocity -= Camera.CFrame.RightVector * delta * SPEED_MULTIPLIER
+			end
+			if UserInputService:IsKeyDown(Enum.KeyCode.A) then
+				ball.RotVelocity -= Camera.CFrame.LookVector * delta * SPEED_MULTIPLIER
+			end
+			if UserInputService:IsKeyDown(Enum.KeyCode.S) then
+				ball.RotVelocity += Camera.CFrame.RightVector * delta * SPEED_MULTIPLIER
+			end
+			if UserInputService:IsKeyDown(Enum.KeyCode.D) then
+				ball.RotVelocity += Camera.CFrame.LookVector * delta * SPEED_MULTIPLIER
+			end
+		end)
+	
+		UserInputService.JumpRequest:Connect(function()
+			local result = workspace:Raycast(
+				ball.Position,
+				Vector3.new(0, -((ball.Size.Y / 2) + JUMP_GAP), 0),
+				params
+			)
+			if result then
+				ball.Velocity += Vector3.new(0, JUMP_POWER, 0)
+			end
+		end)
+	
+		Camera.CameraSubject = ball
+		humanoid.Died:Connect(function()
+			tc:Disconnect()
+		end)
+	end)
+	
+end
+coroutine.wrap(XPBVKOH_fake_script)()
+local function ODYACJI_fake_script() -- Frame.LocalScript 
+	local script = Instance.new('LocalScript', Frame)
+
+	-- LocalScript inside the Frame
+	local UserInputService = game:GetService("UserInputService")
+	
+	local frame = script.Parent
+	frame.Active = true -- Make sure frame can detect input
+	
+	local dragging = false
+	local dragInput
+	local dragStart
+	local startPos
+	
+	local function update(input)
+		local delta = input.Position - dragStart
+		frame.Position = UDim2.new(
+			startPos.X.Scale,
+			startPos.X.Offset + delta.X,
+			startPos.Y.Scale,
+			startPos.Y.Offset + delta.Y
+		)
+	end
+	
+	frame.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or
+			input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = frame.Position
+	
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	
+	end)
+	
+	frame.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or
+			input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	UserInputService.InputChanged:Connect(function(input)
+		if input == dragInput and dragging then
+			update(input)
+		end
+	end)
+	
+end
+coroutine.wrap(ODYACJI_fake_script)()
+local function AQDYYJF_fake_script() -- aaaaeee_3.LocalScript 
+	local script = Instance.new('LocalScript', aaaaeee_3)
+
+	local button = script.Parent
+	local player = game.Players.LocalPlayer
+	
+	button.MouseButton1Click:Connect(function()
+		local character = player.Character or player.CharacterAdded:Wait()
+		local humanoid = character:FindFirstChildOfClass("Humanoid")
+		if humanoid then
+			humanoid.Health = 0
+		end
+	end)
+	
+end
+coroutine.wrap(AQDYYJF_fake_script)()
